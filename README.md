@@ -1,5 +1,7 @@
 # Project: Chatbot and Web Scraper for Endterm Paper
 
+# NOTE YOU NEED AN OPEN AI API TOKEN TO USE THE WEB SCRAPER
+
 ## Overview
 This repository contains the code and resources to replicate the preliminary results for the chatbot and web scraper presented in the endterm paper. The project leverages advanced machine learning models and web scraping techniques to address technical queries and extract valuable insights from web pages.
 
@@ -73,23 +75,18 @@ Update the `url_list` variable in the `webscraper.py` script with the URLs you w
 
 The results will be saved to a file (default: `output.txt`).
 
-## Documentation
-Auto-generated documentation is available in the `doc/` folder. To generate the documentation:
-1. Install [Doxygen](https://www.doxygen.nl/index.html) or [Javadoc](https://www.oracle.com/java/technologies/javase/javadoc.html).
-2. Run the following command in the root directory:
-   ```bash
-   doxygen Doxyfile
-   ```
-The generated HTML files will appear in the `doc/` folder.
 
 ## Citation
 If you use this code for your research or project, please cite the corresponding paper:
 ```
-@article{YourPaper,
-  title={A Digital Cybersecurity Advisor for the Power Industry Using
-Open-Source LLM},
-  author={Rodney},
-  year={2024}
+@misc{bhusal2024securebenchmarkinglargelanguage,
+      title={SECURE: Benchmarking Large Language Models for Cybersecurity}, 
+      author={Dipkamal Bhusal and Md Tanvirul Alam and Le Nguyen and Ashim Mahara and Zachary Lightcap and Rodney Frazier and Romy Fieblinger and Grace Long Torales and Benjamin A. Blakely and Nidhi Rastogi},
+      year={2024},
+      eprint={2405.20441},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2405.20441}, 
 }
 ```
 
